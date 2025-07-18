@@ -3,7 +3,7 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name = 'CapacitorMlkitBarcodeScanning'
+  s.name = 'HassankbrianCapacitorMlkitBarcodeScanning'
   s.version = package['version']
   s.summary = package['description']
   s.license = package['license']
@@ -16,4 +16,4 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMLKit/BarcodeScanning', '4.0.0'
   s.swift_version = '5.1'
   s.static_framework = true
-end
+end 
