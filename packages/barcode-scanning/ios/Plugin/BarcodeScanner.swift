@@ -250,8 +250,8 @@ typealias MLKitBarcodeScanner = MLKitBarcodeScanning.BarcodeScanner
             return
         }
         webView.isOpaque = true
-        webView.backgroundColor = UIColor(red: 0.176, green: 0.471, blue: 0.200, alpha: 1.0) // #2D7933
-        webView.scrollView.backgroundColor = UIColor(red: 0.176, green: 0.471, blue: 0.200, alpha: 1.0) // #2D7933
+        webView.backgroundColor = UIColor(red: 0.118, green: 0.416, blue: 0.275, alpha: 1.0) // #1E6A46
+        webView.scrollView.backgroundColor = UIColor(red: 0.118, green: 0.416, blue: 0.275, alpha: 1.0) // #1E6A46
     }
 
     private func handleScannedBarcode(barcode: Barcode, imageSize: CGSize, videoOrientation: AVCaptureVideoOrientation?) {
